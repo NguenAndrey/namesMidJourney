@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: 200vh;
+  background: #100e19;
+  color: #ffffff;     
+  font-family: 'Indie Flower', cursive;
+  overflow-x: hidden;
+}
+
+.cards__item button{
+  background-color: #100e19;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  transition: 0.3s ease-in-out;
+  font-size: 1.3vw;
+}
+
+
+.cards__item button.active {
+  text-shadow: 0 0 1vw rgb(22, 31, 31);
+}
+
+
+.cards__item button:hover {
+  cursor: pointer;
+  transform: translateY(-0.2vw);
+}
+
+
+.wrapper {
+  position: relative;
+
+}
+
+.poster {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.poster__title {
+  font-size: 3vw;
+}
+
+.poster__items {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cards__item {
+  width: 25%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 4vh;
+}
+
+.cards__image {
+  border-radius: 5%;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.cards__image:hover {
+  cursor: pointer;
+  transform:skewY(3deg);
+ 
+}
+
+.cards__image:active {
+  cursor: pointer;
+  transform:skewY(3deg);
+  transform: scale(1.7);
+  z-index: 2;
+}
+
+
+
+
+h2{
+  transition: 0.3s ease-in-out;
+}
+
+h2.active {
+  text-shadow: 0 0 1vw rgb(22, 31, 31);
+}
+
+h2:hover {
+  cursor: pointer;
+  transform: translateY(-0.5vw);
+}
+
+.cards__image img {
+  width: 15vw;
+  height: 50vh;
+  top: 0;
+  left: 0;
+}
+
+.cards__title {
+  font-size: 1vw;
+}
+
+
+
+
+h3{
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.modal1{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+  padding: 1vw;
+}
+
+.modal1::backdrop{
+  background-color: #252525;
+  opacity: 0.8;
+}
+
+dialog{
+  justify-content: space-around;
+  text-align: center;
+  position: absolute;
+}
+
+dialog img{
+  width: 40%;
+  height: 60%;
+  align-items: center;
+}
+
+
+.modal2{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -10%;
+  margin-top: -150px;
+}
+
+.modal3{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal4{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal5{
+  width: 50%;
+ height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal6{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal7{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal8{
+  width: 50%;
+ height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal9{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+.modal10{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+.modal11{
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  left: 37%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+.modal12{
+  width: 50%;
+  height: 50%;
+ position: absolute;
+ top: 0;
+ left: 0;
+  
+}
+
+.stop_scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.test {
+  position: relative;
+}
